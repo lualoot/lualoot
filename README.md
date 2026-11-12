@@ -184,9 +184,7 @@ Kontribusi, saran, dan laporan bug sangat diterima.
 <div align="center">
 
 [![GitHub](https://img.shields.io/badge/GitHub-lualoot-0d1117?style=for-the-badge&logo=github&logoColor=white)](https://github.com/lualoot)
-[![Telegram](https://img.shields.io/badge/Telegram-USERNAME-0d1117?style=for-the-badge&logo=telegram&logoColor=58a6ff)](https://t.me/USERNAME)
-[![Discord](https://img.shields.io/badge/Discord-USERNAME-0d1117?style=for-the-badge&logo=discord&logoColor=58a6ff)](https://discord.com/users/ID_DISCORD)
-[![Email](https://img.shields.io/badge/Email-EMAIL-0d1117?style=for-the-badge&logo=gmail&logoColor=58a6ff)](mailto:EMAIL@example.com)
+[![Email](https://img.shields.io/badge/Email-EMAIL-0d1117?style=for-the-badge&logo=gmail&logoColor=58a6ff)](mailto:anonymous.my.id@gmail.com)
 
 </div>
 
