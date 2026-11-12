@@ -1,36 +1,218 @@
-::: {align="center"}
-```{=html}
-<!--
-  README PROFILE TEMPLATE — LUA DEVELOPER
-  Replace YOUR_GITHUB_USERNAME, YOUR_NAME, email, and social links.
-  Keep only the tools and projects you genuinely use.
--->
-```
-`<img
-  src="https://capsule-render.vercel.app/api?type=waving&color=0:0B1020,45:172554,100:2563EB&height=220&section=header&text=YOUR_NAME&fontSize=52&fontColor=FFFFFF&fontAlignY=38&desc=Lua%20Developer%20%7C%20Building%20clean%20and%20reliable%20software&descAlignY=60&descSize=16"
-  alt="Profile banner"
-/>`{=html}
+<div align="center">
 
-# Hi there, I'm YOUR_NAME 👋
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:1f6feb&height=230&section=header&text=LuaLoot&fontSize=72&fontColor=e6edf3&fontAlignY=38&animation=fadeIn&desc=Lua%20Scripts%20%E2%80%A2%20SA-MP%20%E2%80%A2%20MoonLoader&descSize=18&descColor=8b949e&descAlignY=62" width="100%" alt="LuaLoot header" />
 
-### Lua Developer · Automation · Scripting · Open Source
+<a href="https://github.com/lualoot">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=640&lines=Crafting+clean+Lua+scripts+for+SA-MP;Performance-first.+Lightweight.+Reliable.;Open+source+tools+for+the+SA-MP+community" alt="Typing SVG" />
+</a>
 
-```{=html}
-<p>
+<br/>
+
+![Profile Views](https://komarev.com/ghpvc/?username=lualoot&label=Profile+Views&color=1f6feb&style=for-the-badge&labelColor=0d1117)
+![Followers](https://img.shields.io/github/followers/lualoot?style=for-the-badge&logo=github&logoColor=white&labelColor=0d1117&color=1f6feb)
+![Stars](https://img.shields.io/github/stars/lualoot?style=for-the-badge&logo=github&logoColor=white&labelColor=0d1117&color=1f6feb)
+
+</div>
+
+<br/>
+
+## ▍ Tentang LuaLoot
+
+```lua
+local LuaLoot = {
+    focus    = "Lua scripting untuk SA-MP",
+    platform = { "MoonLoader", "SAMP.Lua", "mimgui / ImGui" },
+    values   = { "clean code", "performa ringan", "mudah dikustomisasi" },
+    status   = "Aktif membangun & merilis script baru",
+}
 ```
-`<a href="https://github.com/YOUR_GITHUB_USERNAME">`{=html}
-`<img src="https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github" alt="GitHub profile" />`{=html}
-`</a>`{=html} `<a href="mailto:YOUR_EMAIL@example.com">`{=html}
-`<img src="https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />`{=html}
-`</a>`{=html}
-```{=html}
-</p>
+
+LuaLoot adalah tempat kumpulan **script Lua untuk SA-MP (San Andreas Multiplayer)** — mulai dari utilitas client-side, tools produktivitas, hingga antarmuka modern berbasis ImGui. Setiap proyek dibuat dengan fokus pada **kode yang rapi, stabil, dan mudah dipahami**.
+
+<br/>
+
+## ▍ Fokus Pengembangan
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+
+### 🧩 Script & Utilitas
+- Script MoonLoader siap pakai
+- Command & automation client-side
+- Helper untuk event & packet SA-MP
+
+    </td>
+    <td width="50%" valign="top">
+
+### 🎨 Antarmuka (UI)
+- Menu & overlay berbasis **mimgui / ImGui**
+- Tema gelap yang konsisten
+- Pengaturan tersimpan lewat file config
+
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+
+### ⚙️ Optimasi
+- Penggunaan CPU & memori seminimal mungkin
+- Struktur modular dan mudah dirawat
+- Penanganan error yang aman
+
+    </td>
+    <td width="50%" valign="top">
+
+### 📚 Dokumentasi
+- README jelas di setiap repositori
+- Contoh penggunaan & changelog
+- Panduan instalasi langkah demi langkah
+
+    </td>
+  </tr>
+</table>
+
+<br/>
+
+## ▍ Tech Stack
+
+<div align="center">
+
+![Lua](https://img.shields.io/badge/Lua-2C2D72?style=for-the-badge&logo=lua&logoColor=white)
+![MoonLoader](https://img.shields.io/badge/MoonLoader-0d1117?style=for-the-badge&logo=lua&logoColor=58a6ff)
+![SAMP.Lua](https://img.shields.io/badge/SAMP.Lua-0d1117?style=for-the-badge&logoColor=white&color=161b22)
+![ImGui](https://img.shields.io/badge/mimgui%20%2F%20ImGui-0d1117?style=for-the-badge&logoColor=white&color=161b22)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
+
+</div>
+
+<br/>
+
+## ▍ Contoh Kode
+
+Gaya penulisan yang saya gunakan — ringkas, terstruktur, dan aman:
+
+```lua
+script_name("LuaLoot Example")
+script_author("LuaLoot")
+script_version("1.0.0")
+
+require "lib.moonloader"
+local sampev = require "lib.samp.events"
+
+local PREFIX = "{58A6FF}[LuaLoot]{FFFFFF} "
+
+function main()
+    while not isSampAvailable() do wait(100) end
+
+    sampRegisterChatCommand("hello", function()
+        sampAddChatMessage(PREFIX .. "Script berhasil dimuat!", -1)
+    end)
+
+    wait(-1)
+end
+
+function sampev.onServerMessage(color, text)
+    -- tangani pesan server di sini
+end
 ```
-```{=html}
-<p>
+
+<br/>
+
+## ▍ Proyek Unggulan
+
+> Ganti bagian di bawah ini dengan repositori andalanmu.
+
+<div align="center">
+
+<a href="https://github.com/lualoot/NAMA-REPO-1">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=lualoot&repo=NAMA-REPO-1&theme=tokyonight&bg_color=0d1117&border_color=30363d&hide_border=false" alt="Repo 1" />
+</a>
+<a href="https://github.com/lualoot/NAMA-REPO-2">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=lualoot&repo=NAMA-REPO-2&theme=tokyonight&bg_color=0d1117&border_color=30363d&hide_border=false" alt="Repo 2" />
+</a>
+
+<a href="https://github.com/lualoot/NAMA-REPO-3">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=lualoot&repo=NAMA-REPO-3&theme=tokyonight&bg_color=0d1117&border_color=30363d&hide_border=false" alt="Repo 3" />
+</a>
+<a href="https://github.com/lualoot/NAMA-REPO-4">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=lualoot&repo=NAMA-REPO-4&theme=tokyonight&bg_color=0d1117&border_color=30363d&hide_border=false" alt="Repo 4" />
+</a>
+
+</div>
+
+<br/>
+
+## ▍ Statistik GitHub
+
+<div align="center">
+
+<img height="180" src="https://github-readme-stats.vercel.app/api?username=lualoot&show_icons=true&theme=tokyonight&bg_color=0d1117&border_color=30363d&title_color=58a6ff&icon_color=1f6feb&hide_border=false" alt="GitHub Stats" />
+<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lualoot&layout=compact&theme=tokyonight&bg_color=0d1117&border_color=30363d&title_color=58a6ff" alt="Top Languages" />
+
+<img src="https://streak-stats.demolab.com?user=lualoot&theme=tokyonight&background=0d1117&border=30363d&ring=1f6feb&fire=58a6ff&currStreakLabel=58a6ff&hide_border=false" alt="GitHub Streak" />
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=lualoot&theme=tokyo-night&bg_color=0d1117&color=58a6ff&line=1f6feb&point=e6edf3&area=true&area_color=1f6feb&hide_border=true" alt="Activity Graph" />
+
+</div>
+
+<br/>
+
+## ▍ Struktur Repositori
+
+Setiap proyek mengikuti struktur yang konsisten:
+
+```text
+nama-proyek/
+├── moonloader/
+│   ├── nama_script.lua      # script utama
+│   └── config/              # file konfigurasi
+├── lib/                     # dependensi (jika ada)
+├── README.md                # dokumentasi
+├── CHANGELOG.md             # riwayat versi
+└── LICENSE
 ```
-`<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=19&duration=2800&pause=900&color=60A5FA&center=true&vCenter=true&width=600&lines=Writing+Lua+with+purpose.;Building+tools%2C+scripts%2C+and+systems.;Learning+by+building+real+projects." alt="Typing introduction" />`{=html}
-```{=html}
-</p>
-```
-:::
+
+<br/>
+
+## ▍ Instalasi Singkat
+
+1. Pastikan **SA-MP** dan **MoonLoader** sudah terpasang.
+2. Unduh script dari tab **Releases** atau **Code → Download ZIP**.
+3. Salin file `.lua` ke folder `moonloader/` di direktori GTA San Andreas.
+4. Jalankan game, lalu masuk ke server SA-MP.
+
+<br/>
+
+## ▍ Kontribusi
+
+Kontribusi, saran, dan laporan bug sangat diterima.
+
+- 🐞 Temukan bug → buka **[Issues](https://github.com/lualoot?tab=repositories)**
+- 🔧 Punya perbaikan → kirim **Pull Request**
+- ⭐ Suka dengan proyeknya → berikan **Star** pada repositori
+
+<br/>
+
+## ▍ Hubungi Saya
+
+<div align="center">
+
+[![GitHub](https://img.shields.io/badge/GitHub-lualoot-0d1117?style=for-the-badge&logo=github&logoColor=white)](https://github.com/lualoot)
+[![Telegram](https://img.shields.io/badge/Telegram-USERNAME-0d1117?style=for-the-badge&logo=telegram&logoColor=58a6ff)](https://t.me/USERNAME)
+[![Discord](https://img.shields.io/badge/Discord-USERNAME-0d1117?style=for-the-badge&logo=discord&logoColor=58a6ff)](https://discord.com/users/ID_DISCORD)
+[![Email](https://img.shields.io/badge/Email-EMAIL-0d1117?style=for-the-badge&logo=gmail&logoColor=58a6ff)](mailto:EMAIL@example.com)
+
+</div>
+
+<br/>
+
+<div align="center">
+
+<sub>Dibuat dengan 🖤 untuk komunitas SA-MP</sub>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1f6feb,50:161b22,100:0d1117&height=120&section=footer" width="100%" alt="footer" />
+
+</div>
