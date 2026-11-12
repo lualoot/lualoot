@@ -123,25 +123,9 @@ end
 
 ## ▍ Proyek Unggulan
 
-> Ganti bagian di bawah ini dengan repositori andalanmu.
-
-<div align="center">
-
-<a href="https://github.com/lualoot/NAMA-REPO-1">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=lualoot&repo=NAMA-REPO-1&theme=tokyonight&bg_color=0d1117&border_color=30363d&hide_border=false" alt="Repo 1" />
-</a>
-<a href="https://github.com/lualoot/NAMA-REPO-2">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=lualoot&repo=NAMA-REPO-2&theme=tokyonight&bg_color=0d1117&border_color=30363d&hide_border=false" alt="Repo 2" />
-</a>
-
-<a href="https://github.com/lualoot/NAMA-REPO-3">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=lualoot&repo=NAMA-REPO-3&theme=tokyonight&bg_color=0d1117&border_color=30363d&hide_border=false" alt="Repo 3" />
-</a>
-<a href="https://github.com/lualoot/NAMA-REPO-4">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=lualoot&repo=NAMA-REPO-4&theme=tokyonight&bg_color=0d1117&border_color=30363d&hide_border=false" alt="Repo 4" />
-</a>
-
-</div>
+<!--START_SECTION:repos-->
+> 🚧 **Belum ada proyek publik.** Script Lua SA-MP pertama akan segera hadir — pantau terus!
+<!--END_SECTION:repos-->
 
 <br/>
 
@@ -149,14 +133,13 @@ end
 
 <div align="center">
 
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=lualoot&show_icons=true&theme=tokyonight&bg_color=0d1117&border_color=30363d&title_color=58a6ff&icon_color=1f6feb&hide_border=false" alt="GitHub Stats" />
-<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lualoot&layout=compact&theme=tokyonight&bg_color=0d1117&border_color=30363d&title_color=58a6ff" alt="Top Languages" />
-
 <img src="https://streak-stats.demolab.com?user=lualoot&theme=tokyonight&background=0d1117&border=30363d&ring=1f6feb&fire=58a6ff&currStreakLabel=58a6ff&hide_border=false" alt="GitHub Streak" />
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=lualoot&theme=tokyo-night&bg_color=0d1117&color=58a6ff&line=1f6feb&point=e6edf3&area=true&area_color=1f6feb&hide_border=true" alt="Activity Graph" />
-
 </div>
+
+<!--START_SECTION:stats-->
+> 📊 **Belum ada data statistik.** Akan muncul otomatis setelah repositori publik pertama dibuat.
+<!--END_SECTION:stats-->
 
 <br/>
 
